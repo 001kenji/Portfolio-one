@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-import '../CSS/Header.css'
+import '../CSS/header.css'
 export default Header 
 
 import { IoLocationOutline } from "react-icons/io5";
