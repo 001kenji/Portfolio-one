@@ -1,0 +1,142 @@
+@media only screen and (max-width : 640px) {
+#master-footer-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 5px;
+    min-height: 480px;
+    padding: 5px;
+    margin-top: 0px;
+    align-items: center;
+    text-align: center;
+}
+#link-div {
+    padding: 5px;
+}
+#summery-div {
+    padding: 5px;
+    border-radius: 2px;
+    margin: 5px 3px;
+}
+#copyright-div {
+    text-align: center;
+    position: relative;
+    justify-content: center;
+    font-weight: 600;
+    padding: 0px 2px;
+    text-align: center;
+}
+#contact-div {
+    padding: 15px;
+    margin: 5px 2px;
+    border-radius: 2px;
+   justify-content: center;
+   text-align: center;
+   align-items: center;
+    display: flex;
+   flex-direction: column;
+   min-width: 200px;
+}
+}
+
+@media only screen and (max-width : 768px) {
+    #master-footer-div{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        
+        align-items: center;
+        text-align: center;
+        height: fit-content;
+        min-height: 700px;
+        padding: 5px;
+        margin: 0px;
+    }
+    #link-div {
+        padding: 15px;
+    }
+    #copyright-div {
+        justify-content: center;
+        position: relative;
+        font-weight: 600;
+        padding: 0px 2px;
+        display: flex;
+        text-align: center;
+    }
+    #summery-div {
+        padding: 15px;
+        border-radius: 2px;
+        margin: 5px 14px;
+        font-size: large;
+    }
+    #contact-div {
+        padding: 25px;
+        margin: 5px 2px;
+        border-radius: 2px;
+       justify-content: center;
+       text-align: center;
+       align-items: center;
+        display: flex;
+       flex-direction: column;
+       min-width: 200px;
+   }
+}
+
+@media only screen and (min-width : 768px) {
+    #master-footer-div{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 5px;
+        align-items: center;
+        text-align: center;
+        height: fit-content;
+        min-height: 700px;
+        padding: 5px;
+        margin: 0px;
+    }
+    #link-div {
+        padding: 15px;
+    }
+    #copyright-div {
+        justify-content: center;
+        position: relative;
+        font-weight: 600;
+        font-size: 20px;
+        padding: 0px 2px;
+        display: flex;
+        text-align: center;
+    }
+    #summery-div {
+        padding: 15px;
+        max-width: 600px;
+        border-radius: 2px;
+        margin: 5px 14px;
+        font-size: large;
+    }
+    #contact-div {
+        padding: 25px;
+        margin: 5px 2px;
+        border-radius: 2px;
+       justify-content: center;
+       text-align: center;
+       align-items: center;
+        display: flex;
+       flex-direction: column;
+       min-width: 200px;
+   }
+}
+
+#contact-inner-div span {
+    justify-content: center;
+    
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    word-spacing: 5px;
+}
+
+
+
+   

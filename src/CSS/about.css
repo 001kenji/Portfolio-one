@@ -1,0 +1,170 @@
+@media only screen and (max-width : 640px) {
+    #about-card-details{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start ;
+        margin-left: 5px;
+        position: relative;
+
+        margin-bottom: -105px;
+    }
+    #master-about-card {
+        border: 1px solid slategray;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 5px;
+        min-height: 480px;
+    }
+    #about-cardDiv-2 {
+        margin-bottom: 5px;
+    }
+    #about-card {
+
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 5px;
+        margin-left: 10px;
+        margin-right: 10px;
+        justify-content: center;
+        margin-top: 5px;
+        
+    }
+    #about-card img {
+        padding: 5px;
+        width: 100%;
+       
+       /* margin-top: -5px; */
+    }
+    #about-card-details h1 {
+        font-size: 36px;
+        text-align: center;
+        text-decoration: underline;
+        text-underline-offset: 2px;
+        text-decoration-color: rgb(146, 146, 136);
+        padding: 4px 0px;
+    }
+    #about-card-details p {
+        text-align: center;
+        margin: 2px 4px;
+        margin-bottom: 15px;
+    }
+    #about-card-details button {
+        width: fit-content;
+    }
+}
+@media  only screen and (min-width : 640px) {
+    #master-about-card {
+        border: 1px solid slategray;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 5px;
+        min-height: 650px;
+        
+        
+    }
+    #about-card-details{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start ;
+        margin-left: 5px;
+        position: relative;
+        padding: 5px 20px;
+        text-align: center;
+        margin-bottom: -105px;
+        margin-left: -180px;
+        margin-top: 40%;
+    }
+    #about-card {
+        display: flex;
+        height: 500px;
+
+        flex-direction: row;
+        padding: 5px 5px;
+        margin-left: 10px;
+        margin-right: 10px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0px;
+    }
+    #about-card img {
+        padding: 5px;
+        width: 450px;
+        height: 400px;
+       
+    }
+    #about-card-details h1 {
+        font-size: 40px;
+        text-align: center;
+        text-decoration: underline;
+        text-underline-offset: 2px;
+        text-decoration-color: rgb(146, 146, 136);
+        padding: 4px 0px;
+    }
+    #about-card-details p {
+        text-align: center;
+        margin: 2px 4px;
+        font-size: large;
+        margin-bottom: 15px;
+    }
+    #about-card-details button {
+        width: fit-content;
+    }
+}
+@media  only screen and (min-width : 768px) {
+    #master-about-card {
+        border: 1px solid slategray;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 5px;
+        min-height: 650px;
+        
+        
+    }
+    #about-card-details{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start ;
+        margin-left: 5px;
+        position: relative;
+        padding: 5px 20px;
+        text-align: center;
+        margin-bottom: -5px;
+        max-width: 900px;
+        margin-top: 15%;
+    }
+    #about-card {
+        display: flex;
+        height: 500px;
+
+        flex-direction: row;
+        padding: 5px 5px;
+        margin-left: 10px;
+        margin-right: 10px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0px;
+    }
+    #about-card img {
+        padding: 5px;
+        width: 450px;
+        height: 400px;
+       
+    }
+    #about-card-details h1 {
+        font-size: 40px;
+        text-align: center;
+        text-decoration: underline;
+        text-underline-offset: 2px;
+        text-decoration-color: rgb(146, 146, 136);
+        padding: 4px 0px;
+    }
+    #about-card-details p {
+        text-align: center;
+        margin: 2px 4px;
+        font-size: large;
+        margin-bottom: 15px;
+    }
+    #about-card-details button {
+        width: fit-content;
+    }
+}

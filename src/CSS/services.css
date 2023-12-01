@@ -1,0 +1,146 @@
+@media only screen and (max-width : 640px) {
+    #heading-service-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+    }
+    #mapped-services-host-div big {
+        font-size: large;
+        color: #333;
+        font-weight: bold;
+    
+    }
+    #mapped-services-host-div {
+        padding: 5px;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+        justify-content: center;
+        
+    }
+    #our-services-maped-div img {
+        width: 50px;
+        margin: 5px 0px;
+    }
+    #owningDiv-service {
+        margin-top: 5px;
+        width: 98%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 2px;
+    }
+    #heading-service-div big {
+        font-size: larger;
+        color: white;
+        font-weight: bold;
+    }
+}
+@media only screen and (max-width : 768px) {
+    #heading-service-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+        padding: 5px 1px;
+    }
+    #heading-service-div big {
+        font-size: 40px;
+        color: white;
+        font-weight: bold;
+    }
+    #mapped-services-host-div big {
+        font-size: x-large;
+        color: #333;
+        font-weight: bold;
+    
+    }
+    #mapped-services-host-div {
+        padding: 5px;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        justify-content: center;
+        
+    }
+    #our-services-maped-div img {
+        width: 80px;
+        margin: 5px 0px;
+    }
+    #our-services-maped-div button {
+        font-size: large;
+    }
+    #owningDiv-service {
+        min-height: 700px;
+        border-radius: 2px;
+    }
+}
+
+@media only screen and (min-width : 768px) {
+    #heading-service-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+        padding: 5px 1px;
+    }
+    #owningDiv-service {
+        min-height: 700px;
+        border-radius: 2px;
+    }
+    #heading-service-div big {
+        font-size: 40px;
+        color: white;
+        font-weight: bold;
+    }
+    #mapped-services-host-div big {
+        font-size: x-large;
+        color: #333;
+        font-weight: bold;
+    
+    }
+    #mapped-services-host-div {
+        padding: 5px;
+        margin-top: 10px;
+        padding-bottom: 10px;
+        display: flex;
+        flex-direction: row;
+        gap: 0px;
+        margin-left: 10px;
+        margin-right: 10px;
+        justify-content: center;
+        
+    }
+    #our-services-maped-div img {
+        width: 80px;
+        margin: 5px 0px;
+    }
+    #our-services-maped-div button {
+        font-size: large;
+    }
+}
+    
+
+
+
+
+#our-services-maped-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 5px;
+    align-items: center;
+    border: 1px solid slategray;
+    
+
+}

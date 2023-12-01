@@ -1,0 +1,145 @@
+@media only screen and (max-width : 640px) {
+    #client-inner-div {
+        display:  flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    #master-review-div {
+        min-height: 480px;
+        justify-content: center;
+        align-items: center;
+        display: grid;
+        
+    }
+    #mapping-div {
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+        padding: 5px;
+        min-width: 400px;
+        justify-content: center;
+        align-items: center;
+        overflow: visible;
+    }
+    #mapping-div textarea {
+       white-space: wrap;
+    }
+    #mapping-div img {
+        
+    }
+    #client-inner-div span {
+        width: 72px;
+        border-radius: 5px;
+    }
+    #client-inner-div big {
+        font-weight: 600;
+    }
+}
+
+@media only screen and (max-width : 768px) {
+    #client-inner-div {
+        display:  flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    #master-review-div {
+        min-height: 700px;
+        justify-content: center;
+        align-items: center;
+        display: grid;
+        
+    }
+    #mapping-div {
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+        padding: 15px;
+        min-width: 450px;
+        justify-content: center;
+        align-items: center;
+        overflow: visible;
+    }
+    #mapping-div textarea {
+       white-space: wrap;
+    }
+    #mapping-div img {
+        
+    }
+    #client-inner-div span {
+        width: 82px;
+        border-radius: 5px;
+    }
+    #client-inner-div big {
+        font-weight: bold;
+    }
+}
+@media only screen and (min-width : 768px) {
+    #client-inner-div {
+        display:  flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    #master-review-div {
+        min-height: 700px;
+        justify-content: center;
+        align-items: center;
+        display: grid;
+        
+    }
+    #mapping-div {
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+        padding: 15px;
+        height: fit-content;
+        min-width: 550px;
+       
+        justify-content: center;
+        align-items: center;
+        overflow: visible;
+    }
+    #mapping-div  p {
+        font-size: 20px;
+    }
+    #mapping-div textarea {
+       white-space: wrap;
+       font-size: 20px;
+       min-width: 400px;
+       border: 1px solid slategrey;
+       border-radius: 2px;
+       padding: 5px;
+    }
+    #mapping-div img {
+        width: 400px;
+        height: 400px;
+    }
+    #client-inner-div span {
+        width: 82px;
+        border-radius: 5px;
+    }
+    #client-inner-div big {
+        font-weight: bold;
+    }
+}
+
+
+#review-host-div {
+    display: flex;
+    flex-direction: row;
+    margin: 4px 2px;
+    gap: 45px;
+    padding: 10px;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+#mapping-div textarea {
+    min-height: 30px;
+    resize: none;
+}
